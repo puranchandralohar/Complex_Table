@@ -1,0 +1,28 @@
+tr,th,td{
+    border: 1px solid black;
+    padding: 5px 8px;
+    text-align: center;
+}
+
+table{
+    margin:auto;
+    border-collapse: collapse;
+
+}
+
+caption{
+    margin:5px;
+    font-style: italic;
+}
+tbody th{
+    background-color: #C5E9BB;
+}
+
+tbody tr:nth-child(even){
+    background-color: #c9c9c9;
+}
+
+thead,tfoot{
+    background-color:#53AF62;
+    color:#f0fcf2;
+}
